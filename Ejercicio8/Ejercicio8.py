@@ -1,0 +1,12 @@
+#Valores de ref= Petro= 60$ - Bs= 36.63 bs - Euros=0.91 euros
+petros=(float(input("Ingrese la tasa de petros en dolares: ")))
+bolivares=(float(input("Ingrese la tasa del dolar en bolivares: ")))
+euros=(float(input("Ingrese la tasa de euros en dolares: ")))
+dolares=(float(input("Ingrese la cantidad de dolares a convertir: ")))
+sum=(dolares/petros)
+sum1=(bolivares*dolares)
+sum2=(euros*dolares)
+print(f"La conversion de {dolares} $ es:")
+print(f"Petros= {sum} petros.")
+print(f"Bolivares= {sum1} Bs.")
+print(f"Euros= {sum2} euros.")

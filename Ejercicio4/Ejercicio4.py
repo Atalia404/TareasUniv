@@ -1,0 +1,33 @@
+mathexm=(float(input("Ingrese la nota del parcial de MATEMATICAS: ")))
+mathhomework1=(float(input("Ingrese la nota de la primera tarea de matematicas: ")))
+mathhomework2=(float(input("Ingrese la nota de la segunda tarea de matematicas: ")))
+mathhomework3=(float(input("Ingrese la nota de la tercera tarea de matematicas: ")))
+prom_homework=(mathhomework1+mathhomework2+mathhomework3)/3
+prom_math=(prom_homework * 0.1) + (mathexm * 0.9)
+print(f"Nota del parcial: {mathexm}")
+print(f"Promedio de tareas: {prom_homework}")
+print(f">> Su promedio de matematicas es: {prom_math} puntos")
+print("===========================================================================")
+physicexm=(float(input("Ingrese la nota del parcial de FISICA: ")))
+physichomework1=(float(input("Ingrese la nota de la primera tarea de fisica: ")))
+physichomework2=(float(input("Ingrese la nota de la segunda tarea de fisica: ")))
+prom_homeworkp=(physichomework1+physichomework2)/2
+prom_physic=(prom_homeworkp* 0.2) + (physicexm* 0.8)
+print(f"Nota del parcial: {physicexm}")
+print(f"Promedio de tareas: {prom_homeworkp}")
+print(f">> Su promedio de fisica es: {prom_physic} puntos")
+print("===========================================================================")
+chemistryexm=(float(input("Ingrese la nota del parcial de QUIMICA: ")))
+chemistryhomework1=(float(input("Ingrese la nota de la primera tarea de quimica: ")))
+chemistryhomework2=(float(input("Ingrese la nota de la segunda tarea de quimica: ")))
+chemistryhomework3=(float(input("Ingrese la nota de la tercera tarea de quimica: ")))
+prom_homeworkchem=(chemistryhomework1+chemistryhomework2+chemistryhomework3)/3
+prom_chemistry= (prom_homeworkp* 0.25) + (physicexm* 0.75)
+print(f"Nota del parcial: {chemistryexm}")
+print(f"Promedio de tareas: {prom_homeworkchem}")
+print(f">> Su promedio de quimica es: {prom_chemistry} puntos")
+print("===========================================================================")
+prom_def=(prom_math+prom_physic+prom_chemistry)/3
+print(f" >> Su promedio definitivo es: {prom_def} puntos << ")
+print("===========================================================================")
+
